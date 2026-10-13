@@ -1,0 +1,13 @@
+{
+  "name": "dig-anywhere",
+  "private": true,
+  "description": "Dig and Surf anywhere across FireRed's Kanto, built locally from the public decompilations.",
+  "scripts": {
+    "setup": "./setup.sh",
+    "start": "python3 serve.py",
+    "video": "node tools/render_video.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
